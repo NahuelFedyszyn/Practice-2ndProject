@@ -1,5 +1,22 @@
 header{
     background: red;
+    position: fixed;
+    width:110%;
+    margin:0px;
+    transition: 0.2s;
+}
+
+h2{
+    color:white;
+    font-size: 60px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    background:black;
+    width:max-content;
+    border-radius: 50px;
+    padding: 5px 15px;
+    box-shadow: 0px 0px 5px white;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 header nav{
@@ -15,7 +32,7 @@ header h1{
 .main{
     width: 1280px;
     margin:20px auto;
-    background: lightpink;
+    /*background: lightpink;*/
     padding: 15px;
 }
 
@@ -27,7 +44,8 @@ header h1{
 
 body{
     margin:0px;
-}
+    background-image: url("images/background.jpg");
+    }
 
 footer{
     background: black;
@@ -64,13 +82,15 @@ p{
 }
 
 article{
-    margin: 25px 0px;
-    background: white;
+    margin: 20px 0px;
+    background: rgb(212, 212, 212);
     border-radius: 30px;
     display:flex;
     padding: 15px;
     border: 1px black solid;
 }
+
+
 
 .shadow{
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.336);
@@ -89,3 +109,82 @@ a{
     margin:auto;
 }
 
+.hover:hover{
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.transition{
+    transition:0.3s;
+}
+
+.illumination{
+    box-shadow: 0px 0px 15px white;
+}
+
+.textIllumination{
+    text-shadow: 0px 0px 15px white;
+}
+
+footer a{
+    margin:auto 15px;
+    font-size: 50px;
+    transition: 0.2s;
+}
+
+footer p{
+    text-align: right;
+    display: inline;
+    margin-bottom: 15px;
+    margin-left: 65%;
+    font-size: 30px;
+}
+
+footer a:hover{
+    text-shadow: 0px 0px 15px white;
+}
+
+.smallInput{
+    height: 30px;
+    font-size: 24px;
+}
+
+.bigInput{
+    height: 150px;
+    text-indent: none;
+    font-size: 18px;
+}
+
+.form{
+    display: grid;
+    margin:15px auto;
+    width:40%;
+}
+
+
+.formInput{
+    width:75%;
+    transition:0.2s;
+    margin: 5px 0px;
+    padding: 0px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formButton{
+    width:30%;
+    height:50px;
+    margin:15px 0px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.2s;
+    border-radius: 20px;
+    color:white;
+    background-image: linear-gradient(to bottom ,rgb(122, 121, 121), black);
+}
+
+article div i{
+    font-size: 180px;
+}
+
+.form h3{
+    margin:0px;
+}

@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>
             Site title
         </h1>
         <nav>
-            Some navegation controls
+            <a href="#AboutMe">About Me</a>
+            <a href="#Contact">Contact</a>
         </nav>
     </header>
     <div class="scroll">
@@ -25,8 +28,8 @@
     <div class="main">
        
        <section>
-           <h2>About Me</h2>
-           <article class="shadow">
+           <h2 id="AboutMe">About Me</h2>
+           <article class="illumination">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, iste. Neque repellat explicabo quibusdam! Natus, laudantium ullam nobis velit amet quam, qui consequuntur quasi assumenda blanditiis quaerat itaque molestias sunt voluptatum iure aut suscipit adipisci esse repudiandae ad! Molestias sit aliquid eaque qui iusto ducimus reprehenderit expedita? Quisquam iure nostrum quis soluta accusamus ea, quaerat fugiat voluptatum vel impedit quidem recusandae quod maxime fugit nam doloribus! Ea ad asperiores ullam quasi quidem est dicta nulla. Consequuntur quae officiis reprehenderit culpa debitis corrupti, sed quo, optio nulla, voluptas fuga totam expedita assumenda modi. Non dolorem exercitationem blanditiis cumque quas laboriosam neque adipisci aliquam unde eos mollitia vero libero, omnis iusto accusantium ratione quaerat voluptate inventore eaque officia! Dolorem nesciunt ullam illo asperiores mollitia a delectus totam? Laudantium qui recusandae ipsam possimus minus ullam odit deleniti in id. Quidem non quo illo voluptates nisi unde, libero dicta odio, alias ex, dignissimos totam!
                     <br>
@@ -43,11 +46,11 @@
            <h2>
                Things I like
            </h2>
-           <article class="shadow">
-                <img class="margin">
-                <img class="margin">
-                <img class="margin">
-                <img class="margin">
+           <article class="illumination">
+                <div class="img-cont"><a href="index.HTML"><img class="image shadow transition hover" src="images/books.jpg"></a></div>
+                <div class="img-cont "><a href="index.HTML"><img class="image shadow transition hover" src="images/music.jpg"></a></div>
+                <div class="img-cont "><a href="index.HTML"><img class="image shadow transition hover" src="images/videogames.jpg"></a></div>
+                <div class="img-cont "><a href="index.HTML"><img class="image shadow transition hover"  src="images/cooking.jpg"></a></div>
 
            </article>
        </section>
@@ -56,16 +59,41 @@
            Here are some links to other pages in this website
        </section>
 
-       <div>
-           In this place we can find a contact form
-       </div>
+       <h2 id="Contact">
+           Contact me!
+       </h2>
 
+       <section>
+            <article class="illumination">
+                    <div class="img-cont form">
+                        <img src="images/writeEmail.jpg" class="image shadow">
+                    </div>
+                    <form class="form">
+                        <h3>Subject</h3>
+                        <input type="text"  class="formInput smallInput hover" required>
+                        <h3>Your message</h3>
+                        <textarea name="" id="" cols="30" rows="10" class="formInput bigInput hover" style="resize: none;" required ></textarea>
+                        <h3>Your email (So I can answer you)</h3>
+                        <input type="email" class="formInput smallInput hover" required>
+                        <button class="formButton hover illumination">SEND !</button>
+                    </form>
+            </article>
+        </section>
        
 
     </div>
 
     <footer>
-        Here are some other things (I'll se later what)
+        <a href="https://ar.linkedin.com/in/nahuel-fedyszyn-a95764186">
+            <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/NahuelFedyszyn">
+            <i class="bi bi-github"></i>
+        </a>
+        <a>
+            <i class="bi bi-instagram"></i>
+        </a>
+        <p>Nahuel Fedyszyn</p>
     </footer>
 </body>
 </html>
