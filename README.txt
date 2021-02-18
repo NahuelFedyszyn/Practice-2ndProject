@@ -17,3 +17,15 @@ Added footer icons: Icons are linked to my linkedIn profile, GitHub profile and 
 Next session:
 I'll be working in the header 
 Building one last section with more information about me (maybe linked to another page with emphasis on my carrer and life objectives)
+
+18/02/2021
+
+Finished header
+Added smooth scroll effects
+Added "My Path" section (Comlpeted)
+PAGE "index.html" COMPLETED 
+
+Next session:
+Start another page (Don't know which one yet)
+
+
