@@ -28,4 +28,12 @@ PAGE "index.html" COMPLETED
 Next session:
 Start another page (Don't know which one yet)
 
+20/02/2021
 
+Finished second page (My objective.html). It was pretty much copy paste
+Added resume.pdf and docs folder (this is only for tests purposes)
+
+Next session:
+Work on the last page 
+Finish html and css for all the website
+(Not going to beautify yet)
